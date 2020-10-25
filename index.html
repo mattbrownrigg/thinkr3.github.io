@@ -10,14 +10,43 @@
         <title>Thinkr Industries</title>
         <meta name="description" content="The Thinkr Homepage">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="_pages/css/style.css">
     </head>
     <body>
+
         <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+                    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+                <![endif]-->
+
+        <div id="program" class="tabcontent">
+            <h1>Programming</h1>
+            <p>These are my attempts to program.</p>
+        </div>
         
-        <script src="" async defer></script>
-        <h1>Hello.</h1>
+        <div id="research" class="tabcontent">
+            <h1>Research</h1>
+            <p>This is some of the research I have research.</p>
+        </div>
+        
+        <div id="aboutMe" class="tabcontent">
+            <h1>About Me</h1>
+            <p>This is something about me.</p>
+        </div>
+        
+        <div id="contact" class="tabcontent">
+            <h1>Contact</h1>
+            <p>These are a couple of ways to reach me.</p>
+        </div>
+        
+        <button class="tablink" onclick="openCity('program', this, 'red')" id="defaultOpen">Programming</button>
+        <button class="tablink" onclick="openCity('research', this, 'green')">Research</button>
+        <button class="tablink" onclick="openCity('aboutMe', this, 'blue')">About Me</button>
+        <button class="tablink" onclick="openCity('contact', this, 'orange')">Contact</button>
+
+        
+        
+        <script src="_pages/js/script.js" async defer></script>
+        <h1></h1>
+
     </body>
 </html>
