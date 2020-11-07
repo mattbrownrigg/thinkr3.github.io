@@ -26,7 +26,10 @@
   display: none;
   padding: 50px;
   text-align: center;
-  /*width: 80%;*/
+  /*margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 80%;*/
 }
 
 /* Style each tab content individually */
@@ -41,4 +44,9 @@ h1 {
   font-family: "Segoe UI",Arial,sans-serif;
   font-weight: 400;
   text-align: center;
+}
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
 }
