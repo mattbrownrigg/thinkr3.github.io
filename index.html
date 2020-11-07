@@ -2,12 +2,12 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Thinkr Industries</title>
+        <title>Thinkr</title>
         <meta name="description" content="The Thinkr Homepage">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
@@ -18,9 +18,10 @@
                     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
                 <![endif]-->
 
-        <div id="program" class="tabcontent">
-            <h1>Programming</h1>
-            <p>These are my attempts to program.</p>
+
+        <div id="aboutMe" class="tabcontent">
+            <h1>About Me</h1>
+            <p>This is something about me.</p>
         </div>
         
         <div id="research" class="tabcontent">
@@ -28,9 +29,9 @@
             <p>This is some of the research I have research.</p>
         </div>
         
-        <div id="aboutMe" class="tabcontent">
-            <h1>About Me</h1>
-            <p>This is something about me.</p>
+        <div id="program" class="tabcontent">
+            <h1>Programming</h1>
+            <p>These are my attempts to program.</p>
         </div>
         
         <div id="contact" class="tabcontent">
@@ -38,15 +39,20 @@
             <p>These are a couple of ways to reach me.</p>
         </div>
         
-        <button class="tablink" onclick="openCity('program', this, '#f44336')" id="defaultOpen">Programming</button>
-        <button class="tablink" onclick="openCity('research', this, '#4CAF50')">Research</button>
-        <button class="tablink" onclick="openCity('aboutMe', this, '#2196F3')">About Me</button>
-        <button class="tablink" onclick="openCity('contact', this, '#ff5722')">Contact</button>
+        <button class="tablink" onclick="openTab('aboutMe', this, '#f44336')" id="defaultOpen">About Me</button>
+        <button class="tablink" onclick="openTab('research', this, '#4CAF50')">Research</button>
+        <button class="tablink" onclick="openTab('program', this, '#2196F3')">Programming</button>
+        <button class="tablink" onclick="openTab('contact', this, '#E9B83A')">Contact</button>
 
-        
-        
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <div id = "content">
+            <h2>Matthew Brownrigg</h2>
+        </div>
+
         <script src="js/script.js" async defer></script>
-        <h1></h1>
-
     </body>
 </html>
