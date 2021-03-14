@@ -22,7 +22,7 @@
       // of different video formats to add
       src: [
         {
-          src: '/static/videos/bg.mp4',
+          src: '/website/static/videos/bg.mp4',
           type: 'video/mp4'
         },
         {
