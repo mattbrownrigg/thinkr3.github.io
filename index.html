@@ -7,38 +7,299 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Matt Lab</title>
-        <meta name="description" content="Matt Lab">
+        <title>Matthew Brownrigg</title>
+        <meta name="description" content="Matt">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--The Inheritor-->
-        <link rel="stylesheet" href="/website/static/css/main.css">
+        <!--CSS-->
+        <link rel="stylesheet" href="/website/css/main.css">
+        <link rel="stylesheet" href="/website/css/header.css">
+        <link rel="stylesheet" href="/website/css/timeline.css">
+        <link rel="stylesheet" href="/website/css/footer.css">
+        
         <!--Bootstrap CSS--->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        <!--JQuery-->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    </head>
-    <body>
+        <!--Devicon Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+        <!--Social Icons-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      </head>
+      <body >
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <video id="background_video" loop muted></video>
-        <div id="video_cover"></div>
-        <div id="overlay"></div>
-    
-        <section id="main_content">
-            <div id="head">
-                <h1>Hello</h1>
+          
+        <!--Heading-->
+        <header class="main-header">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg main-nav px-0">
+              <a class="navbar-brand" href="/mojo">
+                                <img src="/website/images/FARADAY_LOGO_1.png" alt="Logo">
+                              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="icon-bar icon-bar-1"></span>
+                              <span class="icon-bar icon-bar-2"></span>
+                              <span class="icon-bar icon-bar-3"></span>
+                          </button>
+              <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ml-auto text-uppercase f1">
+                  <li>
+                    <a href="/index.html" class="active active-first">Home</a>
+                  </li>
+                  <li>
+                    <a href="/website/templates/projects.html">Projects</a>
+                  </li>
+                  <li>
+                    <a href="/404.html">Resume</a>
+                  </li>
+                  <li>
+                    <a href="/404.html">Carnales</a>
+                  </li>
+                  <li>
+                    <a href="/website/templates/artworks.html">Artworks</a>
+                  </li>
+                  <li>
+                    <a href="/404.html">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <!-- /.container -->
+        </header>
+        <!--Carousel + Name Card-->
+        <div class="wrapper">
+          <!--Name Card-->
+          <div class="container-fluid main-overlay">
+            <div class="row">
+              <div class="m-box-adjust col-xs-6 col-sm-5 col-md-3 text-center boxover">  
+                <h1>Matthew Brownrigg</h1>
+                <span is="type-async" id="type-text">...</span>
+                <span class="blinking-cursor">_</span>
+              </div>
             </div>
-        </section>
+          </div>
 
+          <div id="carouselExampleIndicators" class="carousel slide my-carousel my-carousel parallax" data-ride="carousel" style="position: inherit;">
+            <div class="carousel-inner" role="listbox">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <a class="arrow carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="arrow carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              <div class="carousel-item active parallax" style="background-image: url('/website/images/darkhokusai.jpg');">
+      
+              </div>
+                <div class="carousel-item parallax" style="background-image: url('/website/images/darkcub.jpg')">
+      
+              </div>
+              <div class="carousel-item parallax" style="background-image: url('/website/images/darkcourtnight.jpg')">
+      
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <!--Main Body-->
+        <!--About Me-->
+        <div class="contain-body section section1">
+          <div class="container-fluid about-me">
+            <div class="container">
+              <div class="row text-center" style="padding: 4vh;">
+                <div class="col-12 md-12 about-me">
+                  <h1>About Me</h1>
+                </div>
+              </div>
+              <div class="row" style="padding-bottom: 7.5vh;">
+                <div class="col-md-6 col-sm-12 about-me">
+                  <p>I am a Full Stack Developer with an interest in Aritificial Intelligence. 
+                    My programming experience comes from creating AI in Python, Jupyter, and Tensorflow.js, 
+                    creating Websites (like this one!) in HTML, Bootstrap, CSS, JS, JQuery, 
+                    and creating Desktop Applications in Java, C#, and React. 
+                    I am mainly applying my programming knowledge by participating in Hackathons to perfect my craft.
+                    I also have many other interests such as researching, gaming, and drawing.</p>
+                    <h6 class="text-center">TL;DR: I am a full-stack dev with experience in AI to Web Dev. 
+                      My diverse background in programming allows me to solve issues with innovative methods</h6>
+                </div>
+                <div class="col-md-6 col-sm-12 about-me-img text-center">
+                  <img class="col-md-6 col-sm-6" src="/website/images/OG 3.png" alt="">
+                  <div class="row">
+                    <ul class="links">
+                      <li><h4>GitHub: <a href="https://github.com/Thinkr3">Thinkr3</a></h4></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Skills-->
+        <div id="divider">
+          <div class="skills">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 md-12 text-center">
+                  <h1 class="skills-header">Skills</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 md-6 text-center">
+                  <ul class="icons">
+                    <i class="devicon-java-plain"></i>
+                    <i class="devicon-javascript-plain"></i>
+                    <i class="devicon-python-plain"></i>
+                    <i class="devicon-csharp-plain"></i>
+                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-django-plain"></i>
+                    <i class="devicon-html5-plain"></i>
+                  </ul>
+                </div>
+                <div class="col-6 md-6 text center">
+                  <ul class="icons">
+                    <i class="devicon-atom-original"></i>
+                    <i class="devicon-github-original"></i>
+                    <i class="devicon-jquery-plain"></i>
+                    <i class="devicon-mysql-plain"></i>
+                    <i class="devicon-bootstrap-plain"></i>
+                    <i class="devicon-photoshop-plain"></i>
+                    <i class="devicon-premierepro-plain"></i>
+                    <i class="devicon-visualstudio-plain"></i>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Timeline-->
+        <div>
+          <div class="container overlay">
+            <div class="row">
+              <div class="col-12 md-12 text-center">
+                <h1 class="timeline-header">Timeline</h1>
+                <div class="container">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="main-timeline" style="padding-bottom: 7.5vh;">
+                              <div class="timeline">
+                                  <span href="#" class="timeline-content">
+                                      <span class="timeline-year">2014</span>
+                                      <h3 class="title">Start of a Career</h3>
+                                      <p class="description">
+                                          Spent the next 5 years learning under a pinion education program that taught me from the basics to complex coding structures.
+                                      </p>
+                                  </span>
+                              </div>
+                              <div class="timeline">
+                                  <span href="#" class="timeline-content">
+                                      <span class="timeline-year">2016</span>
+                                      <h3 class="title">Web Development</h3>
+                                      <p class="description">
+                                          First steps into Web Development with frontend and backend systems.
+                                      </p>
+                                  </span>
+                              </div>
+                              <div class="timeline">
+                                <span href="#" class="timeline-content">
+                                    <span class="timeline-year">2017</span>
+                                    <h3 class="title">Artificial Intelligence</h3>
+                                    <p class="description">
+                                        Learned the fundamentals of Python, Tensorflow.js, and Collab alongside the theory of Machine Learning to make rudementary GAN models.
+                                    </p>
+                                </span>
+                              </div>
+                              <div class="timeline">
+                                <span href="#" class="timeline-content">
+                                    <span class="timeline-year">2019</span>
+                                    <h3 class="title">Java App Development</h3>
+                                    <p class="description">
+                                        Began taking an the rigorous AP Computer Science A course to learn Java and the fundamentals of Object Oriented Programming. 
+                                    </p>
+                                </span>
+                              </div>
+                              <div class="timeline">
+                                <span href="#" class="timeline-content">
+                                    <span class="timeline-year">2020</span>
+                                    <h3 class="title">Hackathon</h3>
+                                    <span class="description">
+                                        With the help of <a href="https://github.com/stasostyk">@stasostyk</a> and <a href="">Ramon</a>
+                                        we participated in various hackathons and placed in the podium for some competitions.</span>
+                                </span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Footer-->
+        <div id="divider">
+          <div class="skills" style="padding-bottom: 0px;">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 md-12 text-center">
+                  <h1 class="skills-header" style="padding-bottom: 0px;">Matthew Brownrigg</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 md-12 text-center">
+                  <div class="icons">
+                    <a href="https://github.com/Thinkr3" target="_blank" class="icons" style="font-size: 25px;"><i class="devicon-github-original"></i></a>
+                    <a href="https://github.com/Thinkr3" target="_blank" class="icons" style="font-size: 25px;"><i class="devicon-twitter-plain"></i></a>
+                    <a href="https://www.google.com/" target="_blank" class="icons" style="font-size: 25px;"><i class="devicon-google-plain"></i></a>
+                    <a href="https://github.com/Thinkr3" target="_blank" class="icons" style="font-size: 25px;"><i class="devicon-linkedin-plain"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 md-12 text-center">
+                  <a href="/website/templates/privacy.html" class="policy">Privacy Policy</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6 col-md-6">
+                  <p class="copypolicy">Copyright © Matthew Brownrigg 2021</a>
+                </div>
+                <div class="col-md-6">
+                  <p class="copypolicy float-right">Made with too much Caffeine</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-        <!--Bideo.js-->
-        <script src="/website/static/libs/bideo.js" async defer></script>
+        
         <!--Main.js-->
-        <script src="/website/static/js/main.js" async defer></script>
+        <script src="/website/js/main.js" async defer></script>
+
+        <!--carousel pls delete-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
 </html>

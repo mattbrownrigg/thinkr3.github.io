@@ -1,0 +1,149 @@
+.carousel-item {
+    height: 80vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* --fill-layer-background-media-position: fixed; */
+  }
+
+  .arrow {
+    z-index: 3 !important;
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wrapper{
+    position: relative;
+  }
+  
+  .section {
+    position: relative;
+    width: 100%;
+    position: relative;
+    transform-style: inherit;
+  }
+  
+  .section1 {
+    background: #F2EBE1;
+    box-shadow: 0 0 20px #333;
+    z-index: 1;
+  }
+
+.main-overlay {
+  position: absolute;
+  z-index: 2;
+}
+
+.boxover {
+  margin-top: 27.5vh !important;
+  /* margin-bottom: 50vh; */
+  border-style: solid;
+  background: #F2EBE1;
+  color: #7a5932;
+  border-color: #7a5932;
+  box-shadow: 10px 10px #473E5F;
+  margin: 4em;
+  padding: 1.5em;
+}
+
+
+  .m-box-adjust {
+    margin-left: 0px !important;
+  }
+
+
+@media (min-width: 576px) {
+  .m-box-adjust {
+    margin-left: 15vw !important;
+  }
+}
+
+#type-text {
+  font-size: 20px;
+}
+
+.blinking-cursor {
+    font-size: 20px;
+    animation: blinker 1s step-end infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+.contain-body {
+    /* padding-top: 7.5vh; */
+}
+
+.about-me {
+  background: #F2EBE1;
+  color: #7a5932;
+  /* box-shadow: 10px 10px white; */
+  /* box-shadow: 0 0 0 1em #FFFFFF; */
+}
+
+.about-me-img .links{
+  padding-top: 2vh;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.overlay {
+  background-color: #F2EBE1;
+}
+
+.icons{
+  font-size: 45px;
+  list-style-type: none;
+  color: #F2EBE1;
+}
+
+.skills {
+  background-color: #7a5932;
+  color: #F2EBE1;
+  padding-bottom: 2.5vh;
+}
+
+.skills-header {
+  padding-top: 5vh;
+  padding-bottom: 2.5vh;
+  color: #F2EBE1;
+}
+
+.timeline-header {
+  padding: 5vh;
+  color: #7a5932;
+}
+
+.icons a:hover {
+  color:#473E5F; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+.policy {
+  color:#F2EBE1; 
+  text-decoration:none; 
+  cursor:pointer;  
+  font-size: 12px;
+}
+
+.copypolicy {
+  color:#F2EBE1;  
+  font-size: 12px;
+}
+
+.policy:hover {
+  color:#473E5F; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
