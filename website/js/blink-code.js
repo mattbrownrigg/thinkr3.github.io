@@ -1,7 +1,7 @@
 async function init () {
     const node = document.querySelector("#type-text")
     var titles = ["Programmer", "Scientist", "Innovator", "Gamer", "Student", "Artist", "Writer", 
-                  "Programmador", "Científico", "Innovador", "Gamer", "Estudiante", "Artista", "Escritor", 
+                  "Programmador", "Científico", "Innovador", "Jugador", "Estudiante", "Artista", "Escritor", 
                   "Programmateur", "Scientifique", "Innovateur", "Joueur", "Élève", "Artiste", "Écrivain" ]
     title = titles[Math.floor(Math.random() * titles.length)]
     currentTitle = title

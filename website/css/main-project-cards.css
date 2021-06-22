@@ -1,0 +1,24 @@
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+ }
+.carousel-item .col  {
+    margin: 8px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item .col-sm {
+    margin: 8px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+} 
+
+.carousel-item .col-md {
+    margin: 8px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}

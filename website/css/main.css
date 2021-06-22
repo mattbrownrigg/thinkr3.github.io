@@ -1,4 +1,4 @@
-.carousel-item {
+.page-heading {
     height: 80vh;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -119,9 +119,52 @@
   color: #F2EBE1;
 }
 
+.bg-left-half {
+  position: relative;
+}
+
+.bg-left-half:before {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  content: "";
+  left: 0;
+  top: 0;
+  background-color: #473E5F;
+}
+
+.card-blur:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* background-image: linear-gradient(to bottom right,#002f4b,#dc4225); */
+  /* background-image: linear-gradient(to bottom,#473E5F,#00966D); */
+  background-image: linear-gradient(to bottom,#473E5F,#7a5932);
+  opacity: .6; 
+}
+
+.card-blur:hover {
+  text-decoration: underline;
+  text-decoration-color: #473E5F;
+}
+
 .timeline-header {
   padding: 5vh;
   color: #7a5932;
+}
+
+.green-a {
+  color: #00966D;
+} 
+
+.green-a:hover {
+  color: #00966D;
+  text-decoration: underline;
+  text-decoration-color: #00966D;
 }
 
 .icons a:hover {
